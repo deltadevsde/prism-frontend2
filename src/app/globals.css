@@ -18,6 +18,31 @@
         src: url(./fonts/ClashDisplay-Variable.ttf);
     }
 }
+
+@layer utilities {
+    /* Act as a border */
+    .card-wrapper {
+        @apply relative overflow-hidden bg-gray-900 rounded-lg;
+    }
+
+    /* Gradient */
+    .card-wrapper::before {
+        background: conic-gradient(
+            rgba(255, 255, 255, 0.7) 0deg,
+            rgba(147, 197, 253, 0.7) 0deg,
+            transparent 60deg
+        );
+
+        @apply absolute left-[-95%] top-[-95%] h-[300%] w-[300%] animate-border-spin content-[''];
+    }
+
+    /* Body */
+    .card-content {
+        /* @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)]; */
+        @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)] bg-gray-900;
+    }
+}
+
 :root {
     --background: #ffffff;
     --foreground: #171717;

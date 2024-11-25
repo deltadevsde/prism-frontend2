@@ -2,16 +2,16 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 px-10 flex flex-col justify-center items-center">
       <h1 className="text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-300 to-blue-400 font-display">
         Making the internet verifiable, not just secure.
       </h1>
-      <div className="relative">
+      <div className="card-wrapper justify-center h-[40px] w-[110px]">
         <button
-          className="relative px-8 py-4 bg-black/10 backdrop-blur-sm rounded-xl
+          className="card-content rounded-lg card-content
                      border border-white/10 shadow-lg
                      group overflow-hidden transition-all duration-300
-                     hover:bg-black/20 hover:scale-105 hover:shadow-xl
+                     hover:bg-black hover:scale-105 hover:shadow-xl
                      active:scale-95"
         >
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/5 h-px bg-blue-300/50 blur-sm" />
@@ -21,9 +21,8 @@ function Hero() {
                         translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"
           />
 
-          <span className="relative text-2xl font-light tracking-wide">
-            <span className="text-white">Learn</span>
-            <span className="text-blue-300 ml-2">More</span>
+          <span className="relative text-sm tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-300 to-blue-400">
+            Learn More
           </span>
         </button>
       </div>
@@ -77,7 +76,7 @@ function TopNav() {
 
 export default function Home() {
   return (
-    <main className="flex items-center flex-col justify-center h-screen bg-gray-900 text-center">
+    <main className="flex items-center flex-col justify-center h-screen bg-black text-center">
       <TopNav />
       <Hero />
       {/* Why Prism? */}
