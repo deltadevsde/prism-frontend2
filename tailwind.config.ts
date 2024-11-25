@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        display: ["Clash Display"],
+        serif: ["EB Garamond"],
+      },
     },
   },
   plugins: [],
