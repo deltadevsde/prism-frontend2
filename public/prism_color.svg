@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-7);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-8 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        fill: #ffc448;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M272.15,212.53l123.12,21.48,17.76,13.29c1.57,1.17,2.43,2.9,2.43,4.85,0,.91-.2,1.75-.56,2.53l-147.55-25.74-43.1,22.03v-19.08l31.01-15.85-31.01-77.96v-24.81c0-2.02,1.65-3.66,3.68-3.66.77,0,1.47.24,2.14.74l2.05,1.53,40.03,100.65h0ZM117.54,286.42l-9.67,19.29c-.78,1.55-.83,3.31-.24,4.86l80.22-41v-19.08l-70.31,35.94h0ZM227.22,428.22l201.1-150.83c8.02-6.02,12.62-15.22,12.62-25.24s-4.6-19.23-12.62-25.24L233.66,80.91c-5.51-4.13-12.05-6.32-18.9-6.32-2.43,0-4.88.28-7.26.84-9.13,2.15-16.77,8.19-20.98,16.57l-101.43,202.28c-6.12,12.2-3.73,26.88,5.95,36.51l95,94.54c5.91,5.89,13.84,9.13,22.31,9.13,6.9,0,13.43-2.16,18.88-6.25h-.01ZM236.62,101.6l182.96,136.96c4.32,3.24,6.8,8.19,6.8,13.59s-2.48,10.35-6.8,13.59l-182.95,137.21c-2.56,1.92-5.56,2.93-8.7,2.93-8.05,0-14.6-6.54-14.6-14.58V113.26c0-8.04,6.55-14.58,14.6-14.58,3.13,0,6.13,1.01,8.69,2.92h0ZM198.77,161.6v220.83c0,8.04-6.56,14.58-14.63,14.58-3.82,0-7.44-1.51-10.2-4.26l-72.63-72.28c-5.21-5.19-6.5-13.09-3.2-19.66l73.08-145.75c2.53-5.04,7.35-8.05,12.9-8.05,7.21,0,14.68,5.45,14.68,14.58h0Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle class="cls-1" cx="250" cy="250" r="250"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="-115.13" cy="-324.05" fx="-115.13" fy="-324.05" r="234.06" gradientTransform="translate(228.21 524.68) rotate(-9.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7659ff"/>
+      <stop offset=".1" stop-color="#7659ff" stop-opacity=".98"/>
+      <stop offset=".22" stop-color="#7659ff" stop-opacity=".92"/>
+      <stop offset=".36" stop-color="#7659ff" stop-opacity=".81"/>
+      <stop offset=".51" stop-color="#7659ff" stop-opacity=".67"/>
+      <stop offset=".67" stop-color="#7659ff" stop-opacity=".49"/>
+      <stop offset=".83" stop-color="#7659ff" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#7659ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7659ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="231.72" cy="-261.73" fx="231.72" fy="-261.73" r="219.35" gradientTransform="translate(228.21 524.68) rotate(-9.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b386"/>
+      <stop offset=".12" stop-color="#00b386" stop-opacity=".92"/>
+      <stop offset=".35" stop-color="#00b386" stop-opacity=".72"/>
+      <stop offset=".66" stop-color="#00b386" stop-opacity=".39"/>
+      <stop offset="1" stop-color="#00b386" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="390.06" cy="676.68" fx="390.06" fy="676.68" r="247.32" gradientTransform="translate(0 -578)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb748"/>
+      <stop offset="0" stop-color="#ffc448"/>
+      <stop offset="1" stop-color="#ffc448" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="124.88" cy="-41.5" fx="124.88" fy="-41.5" r="212.92" gradientTransform="translate(228.21 524.68) rotate(-9.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6dcfef"/>
+      <stop offset=".09" stop-color="#6dcfef" stop-opacity=".97"/>
+      <stop offset=".23" stop-color="#6dcfef" stop-opacity=".88"/>
+      <stop offset=".39" stop-color="#6dcfef" stop-opacity=".74"/>
+      <stop offset=".58" stop-color="#6dcfef" stop-opacity=".55"/>
+      <stop offset=".79" stop-color="#6dcfef" stop-opacity=".29"/>
+      <stop offset="1" stop-color="#6dcfef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="-82.1" cy="-112.72" fx="-82.1" fy="-112.72" r="250.74" gradientTransform="translate(228.21 524.68) rotate(-9.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#224ed0"/>
+      <stop offset=".23" stop-color="#224ed0" stop-opacity=".79"/>
+      <stop offset=".75" stop-color="#224ed0" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#224ed0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="163.93" cy="652.6" fx="163.93" fy="652.6" r="285.05" gradientTransform="translate(0 -578)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f13f3a"/>
+      <stop offset=".17" stop-color="#f13f3a" stop-opacity=".85"/>
+      <stop offset=".56" stop-color="#f13f3a" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#f13f3a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-7" cx="415.46" cy="727.41" fx="415.46" fy="727.41" r="217.7" gradientTransform="translate(0 -578)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc448"/>
+      <stop offset=".17" stop-color="#ffc448" stop-opacity=".86"/>
+      <stop offset=".53" stop-color="#ffc448" stop-opacity=".49"/>
+      <stop offset="1" stop-color="#ffc448" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g class="cls-11">
+        <g class="cls-9">
+          <g>
+            <circle class="cls-10" cx="250" cy="250" r="250"/>
+            <circle class="cls-8" cx="60.65" cy="224.37" r="234.02"/>
+            <circle class="cls-7" cx="413.03" cy="227.97" r="219.32"/>
+            <circle class="cls-6" cx="390.06" cy="98.68" r="247.32"/>
+            <circle class="cls-5" cx="344.42" cy="462.93" r="212.89"/>
+            <circle class="cls-4" cx="128.46" cy="427.23" r="250.7"/>
+            <circle class="cls-3" cx="163.93" cy="74.6" r="285.05"/>
+            <circle class="cls-2" cx="415.46" cy="149.41" r="217.7"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
