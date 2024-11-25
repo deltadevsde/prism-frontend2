@@ -1,4 +1,7 @@
 import Image from "next/image";
+import MouseFollower from "./components/MouseFollower";
+import { HowItWorks, WhyPrism } from "./components/GridComponents";
+import Footer from "./components/Footer";
 
 function Hero() {
   return (
@@ -32,7 +35,7 @@ function Hero() {
 
 function TopNav() {
   return (
-    <div className=" absolute top-6">
+    <div className="absolute top-6">
       {/* Bottom highlight effect */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-px bg-blue-300/20 blur-sm" />
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-blue-200/20 blur" />
@@ -76,19 +79,19 @@ function TopNav() {
 
 export default function Home() {
   return (
-    <main className="flex items-center flex-col justify-center h-screen bg-black text-center">
-      <TopNav />
-      <Hero />
-      {/* Why Prism? */}
-      <div>
-        <h1> Why Prism? </h1>
+    <main className="min-h-screen bg-black">
+      <MouseFollower />
+      <div className="relative">
+        <div className="flex items-center justify-center">
+          <TopNav />
+        </div>
+        <div className="h-screen flex items-center justify-center">
+          <Hero />
+        </div>
+        <WhyPrism />
+        <HowItWorks />
       </div>
-      {/* How does it work? */}
-      <div>
-        <h1> How does it work? </h1>
-      </div>
-      {/* Footer */}
-      <div></div>
+      <Footer />
     </main>
   );
 }
