@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import MouseFollower from "./components/MouseFollower";
 import { HowItWorks, WhyPrism } from "./components/GridComponents";
