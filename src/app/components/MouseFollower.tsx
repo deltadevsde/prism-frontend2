@@ -17,8 +17,8 @@ const MouseFollower = () => {
       // Add some smoothing by using requestAnimationFrame
       requestAnimationFrame(() => {
         setPosition({
-          x: e.clientX - 2,
-          y: e.clientY - 2,
+          x: e.clientX - 5,
+          y: e.clientY - 5,
         });
       });
 
@@ -44,7 +44,7 @@ const MouseFollower = () => {
 
   return (
     <div
-      className={`fixed pointer-events-none w-2 h-2 rounded-full bg-blue-300 transition-all duration-300 ease-out
+      className={`z-10 fixed pointer-events-none w-2 h-2 rounded-full bg-blue-300 transition-all duration-300 ease-out
                 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}
       style={{
         transform: `translate(${position.x}px, ${position.y}px)`,
