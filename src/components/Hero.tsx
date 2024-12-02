@@ -66,9 +66,9 @@ function Hero() {
               </span>
             </button>
           </div>
-          {/* <div className="card-wrapper justify-center h-[40px] w-[130px]">
+          <div className="card-wrapper justify-center h-[40px] w-[130px]">
             <button
-              onClick={startLightClient}
+              onClick={/* startLightClient */ () => console.log("clicked")}
               className="card-content rounded-lg card-content
                       border border-white/10 shadow-lg
                       group overflow-hidden transition-all duration-300
@@ -84,7 +84,7 @@ function Hero() {
                           translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"
               />
 
-              {isRunning ? (
+              {/* {isRunning ? (
                 <div className="flex space-x-1">
                   <Image
                     src="/prism_color.svg"
@@ -101,15 +101,15 @@ function Hero() {
                 <>
                   {isLoading ? (
                     <div className="animate-pulse">Loading...</div>
-                  ) : (
-                    <span className="relative text-sm tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-300 to-blue-400">
-                      Run Lightnode
-                    </span>
-                  )}
+                  ) : ( */}
+              <span className="relative text-sm tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-300 to-blue-400">
+                Run Lightnode
+              </span>
+              {/* )}
                 </>
-              )}
+              )} */}
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
