@@ -1,11 +1,9 @@
-"use client";
-
 import Image from "next/image";
 import MouseFollower from "./components/MouseFollower";
 import { HowItWorks, WhyPrism } from "./components/GridComponents";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Chat from "./components/Chat";
+//import Chat from "./components/Chat";
 
 function TopNav() {
   return (
